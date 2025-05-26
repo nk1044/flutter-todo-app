@@ -1,16 +1,43 @@
-# todo
+# Todo App
 
-A new Flutter project.
+A simple and efficient Todo application built with Flutter.
+
+## Features
+
+- Create, read, update, and delete tasks
+- Mark tasks as complete/incomplete
+- Persist data locally
+- Clean and intuitive user interface
+
+## Packages Used
+
+### State Management
+- `provider: ^6.0.0` - For state management
+
+### Storage
+- `shared_preferences: ^2.0.0` - For local data persistence
+- `sqflite: ^2.0.0` - For SQLite database operations
+
+### UI Components
+- `flutter_slidable: ^2.0.0` - For swipeable list items
+- `google_fonts: ^4.0.0` - For custom fonts
+
+### Utils
+- `intl: ^0.17.0` - For date formatting
+- `uuid: ^3.0.0` - For generating unique IDs
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+1. Clone the repository
+2. Run `flutter pub get`
+3. Run `flutter run`
 
-A few resources to get you started if this is your first Flutter project:
+## Requirements
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter SDK
+- Dart SDK
+- Android Studio / VS Code
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## License
+
+This project is licensed under the MIT License.
